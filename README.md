@@ -7,7 +7,7 @@ I'm a passionate developer and tech enthusiast who loves building impactful proj
 
 Here's a snapshot of my recent GitLab activity:
 
-[![Recent GitLab Activity](https://gitlab-heatmap-generator.kyle7507.workers.dev/)](https://gitlab.com/kylephillips)
+[![Recent GitLab Activity](https://gitlab-heatmap-generator.kylephillips.workers.dev/)](https://gitlab.com/kylephillips)
 
 ### A Bit About Me:
 
