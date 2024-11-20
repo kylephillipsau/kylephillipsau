@@ -1,16 +1,19 @@
-## Hi there 👋
+## Hey, I'm Kyle!
 
-<!--
-**kylephillipsau/kylephillipsau** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a passionate developer and tech enthusiast who loves building impactful projects. Check out my work and contributions on [GitLab](https://gitlab.com/kylephillips)!
 
-Here are some ideas to get you started:
+[![GitLab Badge](https://img.shields.io/badge/GitLab-FC6D26?logo=gitlab&logoColor=white&style=flat)](https://gitlab.com/kylephillips)
+[![FreeCodeCamp Badge](https://img.shields.io/freecodecamp/points/kylephillips)](https://freecodecamp.org/kylephillips)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+Here's a snapshot of my recent GitLab activity:
+
+![Recent GitLab Activity](https://gitlab-heatmap-generator.kyle7507.workers.dev/)
+
+### A Bit About Me:
+
+- 🛠️ I specialize in system administration, web development and network infrastructure.
+- 🎵 In my spare time, I produce music and play multiple instruments.
+- 🌏 I’m based in Victoria, Australia, and I’m always looking for new opportunities and challenges!
+
+You can also check out my website for more information: [kyle.au](https://kyle.au).
