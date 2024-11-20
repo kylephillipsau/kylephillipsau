@@ -1,23 +1,46 @@
 export default {
   async fetch(request, env, ctx) {
-    const gitlabUsername = '8801313';
-    const gitlabApiUrl = `https://gitlab.com/api/v4/users/${gitlabUsername}/events`;
+    // Create a cache key based on the URL
+    const cacheUrl = new URL(request.url);
+    const cacheKey = new Request(cacheUrl.toString(), request);
     
     try {
-      const response = await fetch(gitlabApiUrl);
-      if (!response.ok) {
+      // Check cache first
+      const cache = caches.default;
+      let response = await cache.match(cacheKey);
+      
+      if (response) {
+        // Return the cached response if we have one
+        return response;
+      }
+      
+      // If not in cache, generate new SVG
+      const gitlabUsername = '8801313';
+      const gitlabApiUrl = `https://gitlab.com/api/v4/users/${gitlabUsername}/events`;
+      
+      const apiResponse = await fetch(gitlabApiUrl);
+      if (!apiResponse.ok) {
         throw new Error('Failed to fetch GitLab data');
       }
-      const events = await response.json();
       
+      const events = await apiResponse.json();
       const svg = generateTimelineSvg(events);
       
-      return new Response(svg, {
+      // Create a new response with the SVG and appropriate headers
+      response = new Response(svg, {
         headers: {
           'Content-Type': 'image/svg+xml',
-          'Cache-Control': 'public, max-age=300',
+          'Cache-Control': 'public, max-age=3600', // Cache for 1 hour
+          'CDN-Cache-Control': 'public, max-age=3600',
+          'Cloudflare-CDN-Cache-Control': 'public, max-age=3600',
+          'Vary': 'Accept-Encoding',
         },
       });
+      
+      // Store in cache
+      ctx.waitUntil(cache.put(cacheKey, response.clone()));
+      
+      return response;
     } catch (error) {
       return new Response(`Error: ${error.message}`, { status: 500 });
     }
