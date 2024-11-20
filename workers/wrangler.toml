@@ -1,4 +1,4 @@
-name = "gitlab-activity"
+name = "gitlab-heatmap-generator"
 main = "src/worker.js"
 compatibility_date = "2024-11-20"
 
