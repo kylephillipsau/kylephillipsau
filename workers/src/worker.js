@@ -15,7 +15,7 @@ export default {
       }
       
       // If not in cache, generate new SVG
-      const gitlabUsername = '8801313';
+      const gitlabUsername = env.GITLAB_USERNAME;
       const gitlabApiUrl = `https://gitlab.com/api/v4/users/${gitlabUsername}/events`;
       
       const apiResponse = await fetch(gitlabApiUrl);
