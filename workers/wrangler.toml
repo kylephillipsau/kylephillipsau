@@ -1,0 +1,6 @@
+name = "gitlab-activity"
+main = "src/worker.js"
+compatibility_date = "2024-11-20"
+
+[vars]
+GITLAB_USERNAME = "8801313"
