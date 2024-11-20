@@ -1,14 +1,13 @@
 ## Hey, I'm Kyle!
 
-I'm a passionate developer and tech enthusiast who loves building impactful projects. Check out my work and contributions on [GitLab](https://gitlab.com/kylephillips)!
+I'm a passionate developer and tech enthusiast who loves building impactful projects.
 
 [![GitLab Badge](https://img.shields.io/badge/GitLab-FC6D26?logo=gitlab&logoColor=white&style=flat)](https://gitlab.com/kylephillips)
 [![FreeCodeCamp Badge](https://img.shields.io/freecodecamp/points/kylephillips)](https://freecodecamp.org/kylephillips)
 
-
 Here's a snapshot of my recent GitLab activity:
 
-![Recent GitLab Activity](https://gitlab-heatmap-generator.kyle7507.workers.dev/)
+[![Recent GitLab Activity](https://gitlab-heatmap-generator.kyle7507.workers.dev/)](https://gitlab.com/kylephillips)
 
 ### A Bit About Me:
 
