@@ -1,0 +1,3 @@
+[submodule "gitlab-activity-timeline"]
+	path = gitlab-activity-timeline
+	url = https://gitlab.com/kylephillips/gitlab-activity-timeline.git
