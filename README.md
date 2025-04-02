@@ -11,7 +11,7 @@ Here's a snapshot of my recent GitLab activity:
 
 ### A Bit About Me:
 
-- 🛠️ I specialize in system administration, web development and network infrastructure.
+- 🛠️ I specialise in system administration, web development and network infrastructure.
 - 🎵 In my spare time, I produce music and play multiple instruments.
 - 🌏 I’m based in Victoria, Australia, and I’m always looking for new opportunities and challenges!
 
