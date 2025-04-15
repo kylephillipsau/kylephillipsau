@@ -5,9 +5,9 @@ I'm a passionate developer and techno-optimist who loves building impactful proj
 [![GitLab Badge](https://img.shields.io/badge/GitLab-FC6D26?logo=gitlab&logoColor=white&style=flat)](https://gitlab.com/kylephillips)
 [![FreeCodeCamp Badge](https://img.shields.io/freecodecamp/points/kylephillips)](https://freecodecamp.org/kylephillips)
 
-Here's a snapshot of my recent GitLab activity:
+<!--- Here's a snapshot of my recent GitLab activity:
 
-[![Recent GitLab Activity](https://gitlab-heatmap-generator.kylephillips.workers.dev/)](https://gitlab.com/kylephillips)
+[![Recent GitLab Activity](https://gitlab-heatmap-generator.kylephillips.workers.dev/)](https://gitlab.com/kylephillips) -->
 
 ### A Bit About Me:
 
