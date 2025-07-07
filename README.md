@@ -3,7 +3,7 @@
 I'm a passionate developer and techno-optimist who loves building impactful projects.
 
 [![GitLab Badge](https://img.shields.io/badge/GitLab-FC6D26?logo=gitlab&logoColor=white&style=flat)](https://gitlab.com/kylephillips)
-[![FreeCodeCamp Badge](https://img.shields.io/freecodecamp/points/kylephillips)](https://freecodecamp.org/kylephillips)
+<!--- [![FreeCodeCamp Badge](https://img.shields.io/freecodecamp/points/kylephillips)](https://freecodecamp.org/kylephillips) -->
 
 <!--- Here's a snapshot of my recent GitLab activity:
 
